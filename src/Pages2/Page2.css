@@ -1,0 +1,224 @@
+.navbars{   
+    margin-top: 40px;
+    color: #fff;
+    background: #25e9a8;
+    width: 100%;
+    padding: 10px;
+}
+.icon{
+    font-weight: 700;
+    font-size: 20px;
+}
+.correct{
+    margin-top:5px;
+    border: 1px solid red;
+    padding: 10px;
+}
+.arrow-down-icon {
+    position: absolute;
+    right: 50px; 
+    top: 50%;
+    transform: translateY(-50%);
+  }
+.column{
+    background-color:#e1e2e2;
+    width: 100%;
+    display: flex;
+   gap: 50px;
+}
+.bar{
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 150px;
+    width: 50%;
+    border: 1px solid gray;
+}
+.bars{
+    background-color: white;
+    margin-top: 50px;
+    padding: 10px; 
+    border-radius: 20px;
+    margin-right: 150px;
+    width: 50%;
+    height: 50%;
+    border: 1px solid gray;
+
+}
+
+.button1{
+    background-color:#e1e2e2;
+    border: 2px solid #b5b9b9 ;
+    margin: 20px;
+    padding: 15px;
+    width: 70%;
+    color: #050d1b;
+    border-radius:5px;
+    display: flex;
+}
+.button1:hover{
+    background-color: #b5b9b9;
+}
+.button2{
+    background-color:  #25e9a8;
+    border: 1px solid #25e9a8;
+    margin: 20px;
+    padding: 15px;
+    border-radius:5px;
+    color: #fff;
+    display: flex;
+}
+.button2:hover{
+    background-color: #9adfc8;
+}
+.green-box{
+    margin: 20px;
+    padding: 10px;
+    background-color: #cddfd6;
+    border: 1px solid #77ebb1;
+    border-radius: 5px;
+    margin-left: 20px;
+    align-items: center;
+    justify-content: center;
+    color: #00ff4c;
+}
+.green-box:hover{
+    background-color: #9adfc8;
+}
+.green-box button{
+    background-color: #2eeb76;
+    border: 1px solid #25e9a8 ;
+    border-radius: 5px;
+    width: 60%;
+    color: #fff;
+    padding: 10px;
+}
+.green-box button:hover{
+    background-color: #27ff67;
+}
+.green-box h6{
+    font-weight: 400;
+}
+.red-box{
+    margin: 20px;
+    padding: 10px;
+    background-color: #e6bebe;
+    border: 1px solid #f5c3b0;
+    border-radius: 5px;
+    margin-left: 20px;
+    align-items: center;
+    justify-content: center;
+    color:red;
+}
+.red-box:hover{
+    background-color: #f5c3b0;
+}
+.red-box h6,p {
+    margin-left: 50px;
+}
+.content{
+    color: #050d1b;
+}
+.content h5{
+    margin-left: 20px;
+}
+.content button{
+    color: #fff;
+    background-color: #25e9a8;
+    border: 1px solid #25e9a8 ;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 50px;
+    width: 60%;
+    border-radius: 5px;
+
+}
+.content button:hover{
+    background-color: #77ebb1;
+}
+@media (max-width: 768px){
+    .column{
+        width: 100%;
+        display: grid;
+    }
+    .bar{
+        width: 90%;
+        height: 95%;
+        margin-right: 50%;
+        margin-top:20px;
+        font-size: 15px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 19px;
+    }
+    .left-bar{
+        font-size: 15px;
+        height: 100%;
+
+    }
+    .left-bar h5,p,button {
+        font-size: 15px;
+        padding: 5px;
+    }
+    .button1{
+        width: 90%;
+        padding: 5px;
+    }
+    .button2{
+        width: 50%;
+        padding: 6px;
+    }
+    .green-box{
+        width: 80%;
+        height: 15%;
+        margin-left: 10%;
+        text-align:left;
+    }
+    .green-box  p,button{
+        font-size: 15px;
+        text-align: left;
+    }
+    .green-box button{
+        width: 50%;
+        margin-bottom: 15px;
+    }
+    .icon{
+        font-size: 15px;
+    }
+    .bars{
+        width: 90%;
+        height: 98%;
+        margin-right: 50%;
+        margin-top:20px;
+        font-size: 15px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 19px;
+        margin-top: 0px;
+
+    }
+    .red-box{
+        text-align: left;
+    }
+    .red-box .icon{
+        
+        margin-left: 40px;
+    }
+    .red-box p{
+       margin-left: 60px; 
+    }
+    .content h5,button,p{
+        font-size: 15px;
+    
+    }
+    .content button{
+        margin-top: 0px;
+        font-size: 12px;
+    }
+
+}
+
+
+
+  

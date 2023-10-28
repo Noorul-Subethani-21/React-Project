@@ -1,0 +1,14 @@
+
+
+.App {
+
+  font-family: 'Poppins', sans-serif;
+
+}
+@media(max-width: 768px) {
+ .App{
+    height: 20vmin;
+  }
+}
+
+  
